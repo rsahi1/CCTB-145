@@ -16,6 +16,8 @@ namespace programFlow1
             myApp.IfStatementSample(); // Call (i.e.: execute) the method
 
             Console.WriteLine("Goodbye.");
+            Console.WriteLine("Press [enter] to exit...");
+            Console.ReadLine();
         }  // end of the Main() method
 
         public void IfStatementSample()
